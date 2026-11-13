@@ -1,0 +1,27 @@
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      background-color: hsl(212, 45%, 89%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    div {
+      background-color: hsl(0, 0%, 100%);
+      padding: 2rem;
+      border-radius: 1rem;
+      text-align: center;
+      max-width: 400px;
+    }
+    .qr-code {
+      width: 100%;
+      height: auto;
+      margin-bottom: 1rem;
+      border-radius: 20px;
+    }
+    @media (min-width: 1440px) {
+      div {
+        max-width: 400px;
+      }
+    }
